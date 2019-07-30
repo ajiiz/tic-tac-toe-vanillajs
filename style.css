@@ -1,1 +1,60 @@
-null
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px;
+  margin: 0px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171717;
+  font-family: 'Fira Code', sans-serif;
+  color: white;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body .header {
+  margin-top: 3%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .header h1 {
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+body .main-game {
+  margin-top: 5px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+body .main-game table {
+  background-color: white;
+}
+
+body .main-game__place {
+  height: 110px;
+  width: 110px;
+  background-color: #171717;
+}
+
+body .main-game__place:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
