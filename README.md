@@ -1,5 +1,6 @@
-#Welcome,
+## TIC-TAC-TOE
+Welcome,
 
-It's a basic tic-tac-toe app based on vanilla js.
+Application is made in vanilla js with basic functionalities
 
 Enjoy.
