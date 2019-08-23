@@ -59,7 +59,6 @@ body .main-game__place {
 
 body .main-game__place .main-game__element {
   font-size: 100px;
-  display: none;
 }
 
 body .main-game__place:hover {
