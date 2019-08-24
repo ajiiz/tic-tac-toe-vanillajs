@@ -29,6 +29,9 @@ const gameStart = () => {
                             console.log(board[index]);
                             boardLength++;
                             playerName.textContent = "Now playing: Player " + player2;
+                            if(boardLength >= 3) {
+                                gameCheck(player, board, playerName, boardLength);
+                            }
                             player = 2;
                         }
                     } else if(player == 2) {
@@ -38,11 +41,11 @@ const gameStart = () => {
                             console.log(board[index]);
                             boardLength ++;
                             playerName.textContent = "Now playing: Player " + player1;
+                            if(boardLength >= 3) {
+                                gameCheck(player, board, playerName, boardLength);
+                            }
                             player = 1;
                         }
-                    }
-                    if(boardLength >= 3) {
-                        gameCheck(player, board, playerName, boardLength);
                     }
             });
         });
@@ -79,10 +82,10 @@ const gameCheck = (player,board,playerName, boardLength) => {
 
 const gameEnded = (board, playerName, player) => {
     if(player == 1) {
-        playerName.textContent = "Player 1 has won! (X)";
+        playerName.textContent = `Player ${player} has won! (X)`;
     }
     else if(player == 2) {
-        playerName.textContent = "Player 2 has won! (O)";
+        playerName.textContent = `Player ${player} has won! (O)`;
     }
     else if(player == 0){
         playerName.textContent = "Game has ended as Draw";
