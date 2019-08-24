@@ -54,12 +54,15 @@ body {
             text-align:center;
 
             .main-game__element {
-                font-size:100px;
+                font-size:90px;
             }
         }
         &__place:hover {
             cursor:pointer;
             opacity:0.5;
+        }
+        p {
+            font-size:30px;
         }
     }
 }
