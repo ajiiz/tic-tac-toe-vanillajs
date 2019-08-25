@@ -63,6 +63,30 @@ body {
         }
         p {
             font-size:30px;
+            margin:10px 0 10px 0;
+            width:100%;
+            text-align:center;
+        }
+        button {
+            border:2px solid white;
+            padding:7px;
+            margin-top:5px;
+            text-decoration:none;
+            text-align:center;
+            color:white;
+            font-size:23px;
+            background-color:#171717;
+            cursor:pointer;
+            border-radius:10px;
+            outline:none;
+            animation: buttonAnimation 1s ease-in-out infinite;
+        }
+        button:hover {
+            color:#171717;
+            background-color:white;
+        }
+        button:active {
+            outline:none;
         }
     }
 }
