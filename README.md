@@ -9,7 +9,7 @@ Simple website to play **Tic Tac Toe** made in vanilla js.
 * [Contact](#contact)
 
 ## Status
-#### Published live version at: [tic tac toe](ajiiz.github.io/tic-tac-toe-vanillajs/)
+#### Published live version at: [tic tac toe](https://ajiiz.github.io/tic-tac-toe-vanillajs/)
 
 ## Technologies
 #### Project is created with:
