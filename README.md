@@ -1,9 +1,30 @@
-## TIC-TAC-TOE
+# Tic Tac Toe vanillajs
+Simple website to play **Tic Tac Toe** made in vanilla js.
 
-Welcome,
+## Table of contents
+* [Status](#status)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [License](#license)
+* [Contact](#contact)
 
-Application is made in vanilla js with basic functionalities
+## Status
+#### Published live version at: [tic tac toe](ajiiz.github.io/tic-tac-toe-vanillajs/)
 
-Play tic-tac-toe against your friend. Mobile friendly.
+## Technologies
+#### Project is created with:
+* HTML
+* CSS
+* JS
 
-Link is in the about section.
+## Setup
+* Pull the project from the repository
+```
+git clone https://github.com/ajiiz/tic-tac-toe-vanillajs
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact
+#### Contact me via e-mail: piotrwrobel.ajiiz@gmail.com
